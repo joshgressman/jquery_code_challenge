@@ -1,11 +1,12 @@
 
 
 $(document).ready(function () {
+var count = 0;
 
 $('#new').on('click', function (){
   $('#container').append('<div class="spy"><div class="spyinfo"></div><button class="delete">Delete</button><button class="change">Change</button></div>');
-    // addSpy();
-    
+      count += 1;
+ console.log(count);
     $('.change').on('click', function (){
       $('.spy').toggleClass("colorRed");
 
@@ -26,5 +27,7 @@ $('#new').on('click', function (){
 //doc ready function close
 });
 
-// function addSpy () {
-//   return $('#container').append('<div class="spy"><div class="spyinfo"></div><button class="delete">Delete</button><button class="change">Change</button></div>');
+ //  function addSpy () {
+ //    $('#container').append('<div class="spy"><div class="spyinfo"></div><button class="delete">Delete</button><button class="change">Change</button></div>');
+ //   return ;
+ // }
