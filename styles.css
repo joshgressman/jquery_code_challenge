@@ -1,0 +1,27 @@
+
+#container {
+
+
+}
+
+
+.spy {
+  width: 300px;
+  height: 30px;
+  background-color: yellow;
+
+}
+
+.spyinfo {
+  width: 200px;
+  float:left;;
+}
+
+.change, .delete{
+  float: right;
+
+}
+
+.colorRed {
+  background-color: red;
+}
